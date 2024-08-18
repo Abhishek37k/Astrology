@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,112 +9,221 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
    <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
    <link rel="stylesheet" href="assets/css/super-classes.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/mobile.css">
    <title>Folio flix | Home</title>
+   <style>
+      .navbar-custom {
+         background-color: black;
+      }
+
+      .navbar-custom .navbar-nav .nav-link {
+         color: white;
+      }
+
+      .navbar-toggler-icon {
+         background-color: white;
+         /* Ensure the icon is visible */
+      }
+
+      .navbar-toggler {
+         border: none;
+         /* Remove default border */
+      }
+
+      .navbar-toggler-icon {
+         background-image: none;
+         /* Remove any default background image */
+      }
+
+      .navbar-toggler {
+         padding: 0.25rem 0.75rem;
+         /* Adjust padding if needed */
+      }
+
+      .navbar-toggler:focus {
+         outline: none;
+         /* Remove focus outline */
+         box-shadow: none;
+         /* Remove box shadow if present */
+      }
+
+      .navbar-toggler span {
+         display: block;
+         width: 30px;
+         height: 3px;
+         background-color: white;
+         margin: 6px 0;
+      }
+
+      @media only screen and (max-width: 991px) {
+         .navbar-collapse {
+            background: black;
+            /* Set background color to black */
+            box-shadow: 0 0 12px 0 #eee;
+            left: 10px;
+            max-width: 200px;
+            top: 48px;
+            z-index: 2;
+         }
+      }
+   </style>
 </head>
 
 <body>
-   <!---header-and-banner-section-->
-   <div class="header-and-banner-con w-100 float-left position-relative">
-      <div class="header-and-banner-inner-con">
+   <div id="mainHeaderSection">
+      <!---header-and-banner-section-->
+      <div class="header-and-banner-con w-100 float-left position-relative">
+         <div class="header-and-banner-inner-con">
 
-         <p  class="announcement">Enquiry Now!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href=""> <i class="fa-solid fa-phone mr-1">9999090929</i></a><a href=""> <i class="fa-solid fa-phone mr-1">9999090964</i></a></p>
+            <p class="announcement">Enquiry Now!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href=""> <i
+                     class="fa-solid fa-phone mr-1">9999090929</i></a><a href=""> <i
+                     class="fa-solid fa-phone mr-1">9999090964</i></a></p>
 
-         <header  class="main-header  ">
-            
-            <!--navbar-start-->
-            <div style="margin-left: 100px; margin-bottom:20px" class=" pl-0 pr-0" >
-               <div class="header-con">
-                  
-                  <nav class="navbar navbar-expand-lg navbar-light p-0" >
+            <header class="main-header  ">
 
-                     <button class="navbar-toggler p-0" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        <span class="navbar-toggler-icon"></span>
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse " id="navbarSupportedContent" >
-                        <ul class="navbar-nav ">
-                           <li class="nav-item active pl-0">
-                              <a class="nav-link p-0 is-active" href="index.html">Home<span
-                                    class="sr-only">(current)</span></a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link p-0" href="#service-con">Services</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link p-0" href="#about-con">About us</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link p-0" href="#contactus">Contact us</a>
-                           </li>
-                    
-                        </ul>
-                        <div  style="margin-left: 450px;" class="d-inline-block gx-5 position-relative top-0 end-0 contact">
-                           <a style="color: #000;" href="#Contact">Enquiry now</a>
-                        
-                           
-                        </div>
-                     </div>
-                  </nav>
-               </div>
-            </div>
-            <!--navbar-end-->
-         </header>
-         <section class="banner-main-con" id="home">
-            <div class="container pl-0 pr-0">
-            
-               <div class="banner-con text-lg-left text-center"  >
-                  <div class="row">
-                     <div class="col-lg-8 col-sm-12 d-flex justify-content-center flex-column" style="margin-left: -80px;">
-                        <div class="banner-left-con wow slideInLeft">
-                           <div style="margin-top: 40px;" class="banner-heading">
-                              <h2>Welcome to</h2>
-                              <h1 style="font-size: 80px">SATHEE FOREVER </h1>
+               <!--navbar-start-->
+               <div class=" pl-0 pr-0">
+                  <div class="header-con">
+
+                     <nav class="navbar navbar-expand-lg navbar-custom" style="padding: 0;">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                           <ul class="navbar-nav mx-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#about-con">About us</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#service-con">Services</a>
                               </li>
 
-
-                              <p>Astrology Universe
-
-                              </p>
-                              <p>
-                                 Welcome to a world where the ancient wisdom of the stars illuminates the path to
-                                 understanding ourselves and our place in the universe.Our platform bridges ancient wisdom with modern learning methods,
-                                 offering a diverse range of astrology courses tailored to enthusiasts, practitioners,
-                                 and aspiring astrologers a like.
-                              </p>
-                           </div>
-                           <div class="banner-btn generic-btn d-inline-block" >
-                              <a style="color: #000;" href="#Contact">Enquiry Now</a>
-                           </div>
-                           <a href="#Portfolio" class="See-btn" style="color: #FCA61F;">See our services</a>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#Contact">Enquiry now</a>
+                              </li>
+                           </ul>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-sm-12">
-                        <div class="banner-right-con position-relative wow slideInRight" id="banner-right-con">
-                           <figure style="  margin-right: 60px; margin-left: 300px; 
-   " class="mb-0">
-                             <img src="/assets/css/new images/zodiac-sign-circle.png" 
-                                  alt="banner-right-img"  id="banner-right-img">
-                           </figure>
-                         </div>
-                     </div>
+                     </nav>
                   </div>
                </div>
-               <!--banner-end-->
-            </div>
-         </section>
+               <!--navbar-end-->
+
+            </header>
+
+
+
+
+
+
+            <section class="banner-main-con" id="home">
+               <div class="container ">
+
+                  <div class="banner-con ">
+                     <div class="row">
+                        <div class="col-lg-8 col-sm-12 d-flex justify-content-center flex-column">
+                           <div class="banner-left-con wow slideInLeft">
+                              <div style="margin-top: 40px;" class="banner-heading">
+                                 <h2>Welcome to</h2>
+                                 <h1>SATHEE FOREVER </h1>
+                                 </li>
+
+
+                                 <p>Astrology Universe
+
+                                 </p>
+                                 <p>
+                                    Welcome to a world where the ancient wisdom of the stars illuminates the path to
+                                    understanding ourselves and our place in the universe.Our platform bridges ancient
+                                    wisdom with modern learning methods,
+                                    offering a diverse range of astrology courses tailored to enthusiasts,
+                                    practitioners,
+                                    and aspiring astrologers a like.
+                                 </p>
+                              </div>
+                              <div class="banner-btn generic-btn d-inline-block">
+                                 <a style="color: #000;" href="#Contact">Enquiry Now</a>
+                              </div>
+                              <a href="#Portfolio" class="See-btn" style="color: #FCA61F;">See our services</a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                           <div class="banner-right-con position-relative wow slideInRight" id="banner-right-con"
+                              style="display: block;">
+                              <figure class="mb-0">
+                                 <img src="/assets/css/new images/zodiac-sign-circle.png" alt="banner-right-img"
+                                    id="banner-right-img">
+                              </figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--banner-end-->
+               </div>
+            </section>
+         </div>
       </div>
+      <!---header-and-banner-section-->
+
    </div>
-   <!---header-and-banner-section-->
+
+
+   <div id="aboutUsSection">
+      <!-- About Us Section -->
+      <section class="about-us ">
+         <div class="container">
+            <h2>&nbsp;</h2>
+            <h2>About Us</h2>
+            <div class="row">
+               <div class="col-md-10  mx-auto">
+                  <p>People are afraid of marriage because they are unsure about what kind of person their partner will
+                     be.
+                     We can help alleviate this fear. How?
+                  </p>
+                  <p>If you believe in astrology, we can help you in that way. We have some of the world's best
+                     astrologers
+                     who will examine your horoscope with their experience and tell you whether your future partner is
+                     perfect for you or not. They will also let you know if your married life will be successful.</p>
+                  <p>If you believe more in psycology and science more than astrology, our marriage experts who are
+                     having
+                     more than 15 years of experience in marital-counselling can help you. They will personally counsel
+                     both of you and your families, and based on their experience, they will tell you whether you are
+                     right
+                     for each other and if your married life will be successful.</p>
+                  <p>Most of the people find it difficult to verify the truth, and they face the problem of not knowing
+                     whether the property, job position, business, family status, cast or anything shared while
+                     pre-marriage meetings are true or not. Our investigation team will solve this problem for you and
+                     help
+                     you check the ground reality. Our best investigation team will find out the truth on your behalf
+                     without the other person knowing.</p>
+                  <p>
+                     In short, we will help you in every possible way to ensure that you marry the right person, with
+                     whom
+                     you can have a happy married life.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </div>
+
    <!-- service section -->
-   <section class="w-100 float-left service-con padding-top padding-bottom position-relative" id="service-con">
-      <div class="container">
+   <section class="w-100 float-left service-con  padding-bottom position-relative" id="service-con">
+      <div class="container " style="margin: 0 auto;">
          <div class="service-inner-con position-relative">
             <div class="generic-title text-center">
                <!-- <h6>My Expertise</h6> -->
@@ -122,208 +231,120 @@
             </div>
             <div class="swiper mySwiper">
                <div class="swiper-wrapper">
-                 <div class="swiper-slide">
-                   <div class="service-box-item">
-                     <figure class="mb-0">
-                       <img src="assets/image/12 zodiac sign images/zodiac signs-01.png" alt="service-icon" class="img-fluid">
-                     </figure>
-                   </div>
-                 </div>
-                 <div class="swiper-slide">
-                   <div class="service-box-item">
-                     <figure class="mb-0 ">
-                       <img  src="assets/image/12 zodiac sign images/zodiac signs-02.png" alt="service-icon" class="img-fluid">
-                     </figure>
-                   </div>
-                 </div>
-                 <div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-01.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div><div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-04.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0 ">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-02.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div><div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-05.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div><div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-06.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-04.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div><div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-07.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-05.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div><div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-08.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-06.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-09.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-07.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-10.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-08.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-11.png" alt="service-icon" class="img-fluid">
-                    </figure>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-09.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
                   </div>
-                </div>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-10.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
+                  </div>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-11.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
+                  </div>
+                  <div class="swiper-slide" style="margin-right: 0;">
+                     <div class="service-box-item">
+                        <figure class="mb-0">
+                           <img src="assets/image/12 zodiac sign images/zodiac signs-12.png" alt="service-icon"
+                              class="img-fluid">
+                        </figure>
+                     </div>
+                  </div>
 
-                 <!-- Repeat for all slides -->
+
                </div>
-             </div>
-             
-             
-
-            <!-- <div class="row mb-0">
-               <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-           
-           
-               <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-               </div>
-
-            <div class="row mb-0">
-
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-           
-            
-
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-
-                <div class="col-lg-2 col-md-2">
-                  <div class="service-box-item">
-                    <figure class="mb-0">
-                      <img src="assets/image/12 zodiac sign images/zodiac signs-03.png" alt="service-icon"
-                        class="img-fluid">
-                    </figure>
-                  </div>
-                </div>
-            </div> -->
-
             </div>
+
+
          </div>
       </div>
-      </div>
+
    </section>
-   
+
    <!-- service section -->
    <!-- blog section -->
    <section class="w-100 float-left blog-con padding-top  position-relative" id="blog">
       <div class="container">
          <div class="blog-inner-con position-relative">
             <div class="generic-title text-center">
-             
+
                <h2 class="mb-0">Our Services</h2>
             </div>
             <div class="blog-box wow fadeInUp">
@@ -347,7 +368,8 @@
 
                               </h4>
                            </a>
-                           <p>Rely on our marriage experts, with over 15 years of experience in marital counseling, to guide you towards a successful partnership.
+                           <p>Rely on our marriage experts, with over 15 years of experience in marital counseling, to
+                              guide you towards a successful partnership.
                            </p>
                            <a href="#" data-toggle="modal" data-target="#blog-model-1">Read More</a>
                         </div>
@@ -372,7 +394,8 @@
 
                               </h4>
                            </a>
-                           <p>Discover your future with expert astrologers who will guide you in finding the perfect partner and ensuring a successful married life.
+                           <p>Discover your future with expert astrologers who will guide you in finding the perfect
+                              partner and ensuring a successful married life.
                            </p>
                            <a href="#" data-toggle="modal" data-target="#blog-model-2">Read More</a>
                         </div>
@@ -397,7 +420,8 @@
 
                               </h4>
                            </a>
-                           <p>Ensure trust and transparency with our discreet investigation team, uncovering the truth about key details in pre-marriage meetings.
+                           <p>Ensure trust and transparency with our discreet investigation team, uncovering the truth
+                              about key details in pre-marriage meetings.
                            </p>
                            <a href="#" data-toggle="modal" data-target="#blog-model-3">Read More</a>
                         </div>
@@ -409,79 +433,87 @@
       </div>
    </section>
    <!-- blog section -->
-   <!-- tastimonials section -->
+   <!-- tastimonials section  starts-->
    <section
       class="w-100 float-left padding-top padding-bottom tastimonials-con position-relative text-lg-left text-center"
       id="testimonials">
+      <h1 class="text-center " style="color: #FCA61F;font-size: 60px;font-weight: bold;padding-bottom: 20px;">
+         Testimonials</h1>
+      <h6 style="padding-bottom: 30px;text-align: center;">Why Choose
+         SATHEE FOREVER
+         Astrology Universe?</h6>
       <div class="container">
          <div class="row">
             <div class="col-lg-5">
-               <div class="tastimonials-left-con wow slideInLeft " style="height: 600px;">
+               <div class="tastimonials-left-con wow slideInLeft ">
                   <figure class="mb-0">
                      <img src="/newimages/universe-circle.png" alt="tastimonials-img" class="img-fluid">
                   </figure>
                </div>
             </div>
             <div class="col-lg-7">
+
+
                <div id="carouselExampleControls" class="carousel slide wow slideInRight" data-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active">
                         <div class="testimonials-content">
-                           <h6>Why Choose
-                              SATHEE FOREVER
-                              Astrology Universe?</h6>
+
                            <h2>Expert Consultation: </h2>
                            <figure class="mb-0">
                               <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                            </figure>
                            <div class="testimonials-inner-content">
-                              <p>Gain insights and guidance from experienced astrologers for personalized consultations tailored to your needs and concerns.
+                              <p>Gain insights and guidance from experienced astrologers for personalized consultations
+                                 tailored to your needs and concerns.
                               </p>
-                             
+
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="testimonials-content">
-                           <h6>Testimonials</h6>
                            <h2>Holistic Approach: </h2>
                            <figure class="mb-0">
                               <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                            </figure>
                            <div class="testimonials-inner-content">
-                              <p>Our platform offers a holistic approach to astrology, encompassing various aspects such as planetary alignments, Vastu principles, and spiritual connections for a well-rounded understanding.
+                              <p>Our platform offers a holistic approach to astrology, encompassing various aspects such
+                                 as planetary alignments, Vastu principles, and spiritual connections for a well-rounded
+                                 understanding.
                               </p>
-                            
+
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="testimonials-content">
-                           <h6>Testimonials</h6>
                            <h2>Trusted Resource: </h2>
                            <figure class="mb-0">
                               <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                            </figure>
                            <div class="testimonials-inner-content">
-                              <p>Benefit from the knowledge and expertise of Acharya Ganesh, a renowned astrology figure revered for his accurate predictions and insightful guidance.
+                              <p>Benefit from the knowledge and expertise of Acharya Ganesh, a renowned astrology figure
+                                 revered for his accurate predictions and insightful guidance.
 
                               </p>
-                            
+
                            </div>
                         </div>
                      </div>
 
                      <div class="carousel-item">
                         <div class="testimonials-content">
-                           <h6>Testimonials</h6>
                            <h2>Practical Application: </h2>
                            <figure class="mb-0">
                               <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                            </figure>
                            <div class="testimonials-inner-content">
-                              <p>Learn practical techniques and methodologies to apply astrological insights and Vastu principles in your daily life, empowering you to make informed decisions and lead a harmonious existence.
+                              <p>Learn practical techniques and methodologies to apply astrological insights and Vastu
+                                 principles in your daily life, empowering you to make informed decisions and lead a
+                                 harmonious existence.
                               </p>
-                            
+
                            </div>
                         </div>
                      </div>
@@ -499,14 +531,14 @@
          </div>
       </div>
    </section>
-   <!-- tastimonials section -->
+   <!-- tastimonials section ends-->
 
    <!-- form section -->
-   <section class="w-100 float-left form-main-con padding-top padding-bottom" id="Contact">
+   <section class="w-100 float-left form-main-con  padding-bottom" id="Contact">
       <div class="container">
          <div class="form-main-inner-con position-relative">
             <div class="generic-title text-center">
-               <h6>Get in Touch</h6>
+               <h3>Get in Touch</h3>
                <h2 class="mb-0">Any Questions? Feel Free<br>
                   to Contact
                </h2>
@@ -681,8 +713,11 @@
 
                      </h4>
 
-                     <p class="mb-md-4 mb-2">If you believe in astrology, we can help you in that way. We have some of the world's best astrologers who will examine your horoscope with their experience and tell you whether your future partner is perfect for you or not. They will also let you know if your married life will be successful.
-</p>
+                     <p class="mb-md-4 mb-2">If you believe in astrology, we can help you in that way. We have some of
+                        the world's best astrologers who will examine your horoscope with their experience and tell you
+                        whether your future partner is perfect for you or not. They will also let you know if your
+                        married life will be successful.
+                     </p>
                      <h4 class="comment-title">LEAVE A COMMENT</h4>
                      <form class="contact-form blog-model-form">
                         <div class="row">
@@ -702,7 +737,7 @@
                                  <input type="tel" placeholder="Phone">
                               </div>
                            </div>
-                         
+
                         </div>
                         <div class="row">
                            <div class="col-lg-12">
@@ -739,8 +774,12 @@
 
                      </h4>
 
-                     <p class="mb-md-4 mb-2">If you believe more in psycology and science more than astrology, our marriage experts who are having more than 15 years of experience in marital-counselling can help you. They will personally counsel both of you and your families, and based on their experience, they will tell you whether you are right for each other and if your married life will be successful.
-</p>
+                     <p class="mb-md-4 mb-2">If you believe more in psycology and science more than astrology, our
+                        marriage experts who are having more than 15 years of experience in marital-counselling can help
+                        you. They will personally counsel both of you and your families, and based on their experience,
+                        they will tell you whether you are right for each other and if your married life will be
+                        successful.
+                     </p>
                      <h4 class="comment-title">LEAVE A COMMENT</h4>
                      <form class="contact-form blog-model-form">
                         <div class="row">
@@ -795,8 +834,12 @@
                      <h4>Ground Reality Check
                      </h4>
 
-                     <p class="mb-md-4 mb-2">Most of the people find it difficult to verify the truth, and they face the problem of not knowing whether the property, job position, business, family status, cast or anything shared while pre-marriage meetings are true or not. Our investigation team will solve this problem for you and help you check the ground reality. Our best investigation team will find out the truth on your behalf without the other person knowing.
-</p>
+                     <p class="mb-md-4 mb-2">Most of the people find it difficult to verify the truth, and they face the
+                        problem of not knowing whether the property, job position, business, family status, cast or
+                        anything shared while pre-marriage meetings are true or not. Our investigation team will solve
+                        this problem for you and help you check the ground reality. Our best investigation team will
+                        find out the truth on your behalf without the other person knowing.
+                     </p>
                      <h4 class="comment-title">LEAVE A COMMENT</h4>
                      <form class="contact-form blog-model-form">
                         <div class="row">
@@ -835,44 +878,9 @@
    </div>
    <!-- weight footer section -->
    <script src="assets/js/wow.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    direction: 'horizontal', // Ensure horizontal direction
-    watchSlidesProgress: true,
-    slidesPerView: 3, // Adjust the number of slides visible at once
-    spaceBetween:5, 
-    
 
-    direction: 'horizontal',   // Slide direction
-  loop: true,                // Loop the slides
-  autoplay: {
-    delay: 1000,             // Time between slide transitions (in milliseconds)
-    disableOnInteraction: false},
-    speed: 600,
-
-    // Adjust spacing between slides
-    breakpoints: {
-      640: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 30,
-      },
-      1080: {
-        slidesPerView: 3,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 50,
-      },
-    },
-  });
-</script>
 
 
    <script>
@@ -1018,18 +1026,40 @@
 
       });
    </script>
+
+
    <script>
-      function downloadImage() {
-         source = 'assets/image/cv-img.png';
-         const fileName = 'test-image.png';
-         var el = document.createElement("a");
-         el.setAttribute("href", source);
-         el.setAttribute("download", fileName);
-         document.body.appendChild(el);
-         el.click();
-         el.remove();
-      }
+      var swiper = new Swiper(".mySwiper", {
+         direction: 'horizontal',
+         slidesPerView: 4, // Default for larger screens
+         spaceBetween: 20, // Space between slides
+         loop: true, // Enable looping
+         autoplay: {
+            delay: 3000, // Time between slide transitions (in milliseconds)
+            disableOnInteraction: false,
+         },
+         breakpoints: {
+            640: {
+               slidesPerView: 1,
+               spaceBetween: 20,
+            },
+            768: {
+               slidesPerView: 2,
+               spaceBetween: 20,
+            },
+            1024: {
+               slidesPerView: 4, // Adjusted for larger screens
+               spaceBetween: 20,
+            },
+            1280: {
+               slidesPerView: 5, // More slides for very large screens
+               spaceBetween: 20,
+            },
+         },
+      });
    </script>
+
+
 </body>
 
 </html>
