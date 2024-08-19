@@ -220,6 +220,7 @@ body {
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 2s infinite  alternate;
 } */
+<<<<<<< HEAD
 
 
 * {
@@ -848,6 +849,31 @@ a {
   height: 48px !important;
 }
 
+=======
+.happy-con::before {
+  content: "";
+  width: 52px;
+  height: 59px;
+  position: absolute;
+  top: -131px;
+  left: 0;
+  background: url(../image/half-circle.png) no-repeat top left;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1.5s infinite alternate;
+}
+
+.banner-social-icon {
+  position: absolute;
+  left: 88px;
+  top: 43%;
+}
+
+.banner-social-icon ul li a i {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
 /***** navbar banner css****/
 /***** service section css****/
 .generic-title h3 {
@@ -900,8 +926,13 @@ a {
   width: auto;
   /* Let Swiper control the width */
   display: flex;
+<<<<<<< HEAD
   max-width: 150px;
   /* min-height: 300px; */
+=======
+  max-width: 200px;
+  min-height: 300px;
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
   justify-content: space-between;
   align-items: center;
 }
@@ -931,7 +962,10 @@ a {
     border: 1px solid transparent; */
   padding: 14px;
   border-radius: 20px;
+<<<<<<< HEAD
   margin:14px;
+=======
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
   width: 200px;
   height: 200px;
   transition-duration: 0.3s;
@@ -1672,7 +1706,11 @@ a {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: 1px solid #fca61f;
+<<<<<<< HEAD
   box-shadow: 0 0 15px 0 #dcd954;
+=======
+  box-shadow: 0 0 35px 0 #dcd954;
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
 }
 
 .contact-form textarea {
@@ -2009,8 +2047,12 @@ a {
   font-weight: 300;
   font-size: 26px;
   line-height: 50px;
+<<<<<<< HEAD
   color: black;
   font-weight: 600;
+=======
+  color: #fff;
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
 }
 
 #button:hover {
@@ -2023,7 +2065,10 @@ a {
 
 #button.show {
   opacity: 1;
+<<<<<<< HEAD
   color: #000;
+=======
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
   visibility: visible;
 }
 
@@ -2474,7 +2519,10 @@ a {
 
   .slideInLeft h1 {
     font-size: 50px;
+<<<<<<< HEAD
     line-height: 40px;
+=======
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
   }
 
   .banner-right-con figure {
@@ -2538,6 +2586,7 @@ a {
   /* Hide any overflow */
 }
 
+<<<<<<< HEAD
 
 .swiper-wrapper {
   display: flex;
@@ -2557,12 +2606,32 @@ a {
 .swiper-slide img {
   height: 185px;
   width: 255px;
+=======
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  box-sizing: border-box;
+  /* Ensure padding and borders are included in width */
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  /* Ensure images fit within the slide */
+  height: auto;
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
 }
 
 @media (max-width: 640px) {
   .swiper-slide {
+<<<<<<< HEAD
     height: 155px;
     width: 315px;
+=======
+    width: 100%;
+>>>>>>> c425454c147dfe2df50622ca872f26c4ffd9d832
     /* Ensure slides fit within the container on small screens */
   }
 }
